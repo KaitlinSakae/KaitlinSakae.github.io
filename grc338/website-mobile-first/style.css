@@ -16,6 +16,7 @@ header{
 }
 nav ul{
     padding: 0.5em;
+    max-width: auto;
     background-color:#8BA173;
 }
 
@@ -62,6 +63,7 @@ h3{
     font-weight: 400;
     font-style: normal; 
     padding: 1em 1em 0em 1em;
+    color:#8BA173;
 }
 
 h4{
