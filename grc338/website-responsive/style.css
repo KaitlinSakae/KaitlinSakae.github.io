@@ -1,0 +1,149 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/ulz3qfi.css");
+
+div container{
+    max-width: 50em;
+    margin: auto;
+}
+
+body{
+    background-color: #F2EFDF;
+    margin:2em;
+}
+
+header{
+    text-align: center;
+}
+
+article.menu{
+}
+
+
+section.merchandise{
+}
+
+nav ul{
+    padding: 0.5em;
+    max-width:auto;
+    background-color:#8BA173;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-family: brother-1816, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav ul li a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:#a9a9a9;
+}
+
+h1{
+    font-family: brother-1816, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color:#CFBA9A;
+    font-size:3em;
+    padding: 0.25em 1em 0em 0.25em;
+}
+
+h2{
+    font-family: brother-1816, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    padding: 0em 1em 0em 0.5em;
+}
+
+h3{
+    font-family: brother-1816, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    padding: 1em 1em 0em 1em;
+    color:#8BA173;
+}
+
+h4{
+    font-family: brother-1816, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1em;
+}
+
+h5{
+    font-family: brother-1816, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size:1em;
+    padding: 1em;
+}
+
+h6{
+    font-family: brother-1816, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size:1em;
+    padding: 1em;
+}
+
+li{
+    font-family: brother-1816, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size:1em;
+    padding: 0em 0em 1em 0em;
+    list-style-type: none;
+}
+
+p{
+    font-family: brother-1816, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:1em;
+}
+
+footer{
+    background-color: #BF8773;
+}
+
+
+img {
+    width: 100%; 
+}
+
+@media screen and (min-width: 40em){
+    header{
+    margin:5em 15em 0em 15em;
+    }
+    
+    div container{
+    max-width: 50em;
+    margin: auto;
+    }
+    article.menu{
+    display:grid;
+    grid-template-columns:50% auto;
+    grid-column: auto;
+}
+    section.merchandise{
+    display:grid;
+    grid-template-columns:4fr;
+    grid-column: auto;
+}
+    }
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
