@@ -1,0 +1,51 @@
+/*CSS document*/
+
+body {
+
+    font-family: semplicitapro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,h3{
+    color:#477592;
+}
+
+
+a{
+    text-decoration: none;
+    color: #477592;
+}
+
+a h3{
+    font-family: semplicitapro, sans-serif;
+    font-style: normal;
+}
+a p{
+    color: rgb(0 0 0); 
+    font-weight: 200;
+    
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
