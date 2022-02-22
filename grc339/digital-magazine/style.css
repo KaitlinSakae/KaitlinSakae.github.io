@@ -1,16 +1,35 @@
 /*CSS document*/
 
 body {
-
     font-family: semplicitapro, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-h2,h3{
-    color:#477592;
+div.container{
+    max-width: 70em;
+    margin: 0 auto;
 }
 
+section{
+    max-width: 40em;
+    margin: 0 auto 3em;
+}
+
+figure {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+h1{
+    width: 4em;
+}
+
+h2,h3{
+    color:#477592;
+    margin-top: 0;
+    margin-bottom: 0em;
+}
 
 a{
     text-decoration: none;
@@ -24,16 +43,7 @@ a h3{
 a p{
     color: rgb(0 0 0); 
     font-weight: 200;
-    
-}
-
-div.container {
-    max-width: 40em;
-    margin: auto;
-}
-
-figure {
-    margin: auto;
+    margin-top: 0.5em;
 }
 
 img {
@@ -42,10 +52,71 @@ img {
 
 nav ul li{
     text-transform: uppercase;
+    display: inline;
     font-weight: 400;
+    margin-right: 1em;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+@media screen and (min-width: 60em){
+    div.container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 1em;
+    }
+    
+    header{
+        grid-column: 1/3;
+    }
+    
+    main{
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 0 1em;
+    }
+    
+    section.mainstory{
+        grid-column: 2/4;
+        grid-row: 1/3;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    
+    section.mainstory figure{
+        flex: 1 0 18em;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    section.mainstory figure div{
+        flex: 1 0 18em;
+        background-image: url(Top-10-Shoes.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    section.mainstory figure figcaption{
+        flex:0 0 3em;
+    }
+    section.mainstory figure div img{
+        height: 100%;
+        opacity:0;
+    }
+    section.mainstory h3{
+        flex: 0 0 auto;
+        margin: 0;
+    }
+    section.mainstory p{
+        flex:0 0 auto;
+        margin: 0;
+    }
+    aside{
+        grid-column: 2/3;
+    }
 }
